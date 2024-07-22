@@ -22,3 +22,9 @@ Instead of using Python's PyDictionary library, this project uses [this](https:/
   - PySimpleGUI
   - json
   - pyautogui (optional, used for simulating key presses)
+
+## Issues
+
+- Pressing a non-alphanumeric key (Backspace, Enter, Tab, Caps Lock, etc.) undesireably inputs a single instance of letter 'd' into the search box (only when ghost text is being displayed).
+- Implementation of pressing Enter key to search can't be done as of yet without compromising on UX consistency as pressing Enter key does not trigger the same animation on Find button as clicking it does.
+- PySimpleGUI does not allow displaying different visual styles for seperate lines as of yet. Consequently, the "Showing results for {variation_name}:" message appears as if it's a part of search results.
