@@ -1,4 +1,4 @@
-# simple-dictionary-gui-app
+# dictionary-gui-app
 
 ## Description
 
