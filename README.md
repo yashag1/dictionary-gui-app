@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple dictionary application built using PySimpleGUI and json libraries of Python and also uses PyAutoGUI for a brief, specific implementation. The app allows users to search for dictionary definitions by typing a word into a search box. Results are displayed in the output area, and ghost text is used as a placeholder in the search box.
+This is a simple dictionary application built using PySimpleGUI and json libraries of Python and also uses PyAutoGUI for a brief, specific implementation, and works completely without Python's PyDictionary library. The app allows users to search for dictionary definitions by typing a word into a search box. Results are displayed in the output area, and ghost text is used as a placeholder in the search box.
 
 ## Features
 
